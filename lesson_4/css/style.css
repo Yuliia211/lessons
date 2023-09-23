@@ -1,0 +1,53 @@
+@import url("reset.css");
+
+
+
+li{
+   color: rgb(255, 0, 225);
+}
+.desk{
+   color: rgb(85, 9, 198);
+}
+.text-a {
+   color: antiquewhite;
+}
+.text-b {
+   color: aqua;
+}
+.text-c {
+   color: aquamarine;
+}
+.text-d {
+   color: beige;
+}
+.text-i {
+   color: blueviolet;
+}
+.ul {
+   color: rgb(191, 240, 14);
+}
+#block-1{
+   color: red;
+}
+#block-2{
+   color: red;
+}
+#block-3{
+   color: red;
+}
+#block-4{
+   color: red;
+}
+div.lesson{
+   color: green;
+}
+.page_text.text{
+   color: yellowgreen;
+}
+.text-a,
+.text-b{
+   color: blueviolet;
+}
+.blank a{
+   color: blue;
+}
