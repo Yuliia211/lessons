@@ -1,7 +1,5 @@
 @import url("reset.css");
 
-
-
 li{
    color: rgb(255, 0, 225);
 }
@@ -41,13 +39,29 @@ li{
 div.lesson{
    color: green;
 }
-.page_text.text{
+.page-text.text{
    color: yellowgreen;
 }
 .text-a,
+h3,
 .text-b{
    color: blueviolet;
 }
 .blank a{
    color: blue;
+}
+.blank .red-text{
+   color: red;
+}
+.text-text>p{
+   color: orangered;
+}
+.text-t~p{
+   color: rgb(204, 62, 240);
+}
+.text-a+h5{
+   color: chartreuse;
+}
+[class*="__forever"]{
+   color: rgb(249, 229, 8); 
 }
