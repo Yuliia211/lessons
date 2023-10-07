@@ -1,0 +1,85 @@
+
+@import url("fonts.css");
+@import url("reset.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,600,700&display=swap");
+
+body{
+   font-family:"Inter", sans-serif;
+   font-size: 18px;
+   color: #7D7D7D;
+   line-height: 1,47;
+}
+.tietle,
+.tietle-1,
+.tietle-2{
+   font-family: "Poppins", sans-serif;
+   line-height: 1,27;
+}
+.tietle{
+   font-size: 30px;
+   font-weight: 600;
+   color: #37393F;
+   text-transform: capitalize;
+}
+.tietle-1{
+   font-size: 20px;
+   font-weight: 600;
+   color: #6B77E5;
+}
+.tietle-2{
+   font-size: 40px;
+   font-weight: 700;
+   color: #37393F;
+   text-transform: capitalize;
+}
+.tietle-3{
+   font-style: italic;
+   text-align: center;
+   text-decoration: underline;
+   color: black;
+   text-shadow: 5px 5px 3px #f12be7;
+   text-transform: uppercase;
+}
+.font{
+   font-style: oblique;
+   color: aqua;
+   text-align:left;
+   text-decoration: line-through;
+   text-transform: lowercase;
+   letter-spacing: 3px;
+   word-spacing: 10px;
+}
+.fontf{
+   color: rgba(63, 55, 58, 0.5);
+   text-align: right;
+   text-decoration: overline;
+   text-transform: capitalize;
+   letter-spacing: 3px;
+   word-spacing: 10px;
+}
+.fontfa{
+   color: green;
+   text-align: justify;
+   letter-spacing: 3px;
+   white-space: nowrap;
+}
+.fontfam{
+   color: #d7e60c;
+   text-indent: 30px;
+   letter-spacing: 3px;
+   word-spacing: 10px;
+}
+.text-1,
+.text-t,
+.text-2,
+.text-3,
+.text-4{
+   font-weight: 400;
+}
+.ul,
+.ol{
+   font-weight: 500;
+}
