@@ -1,0 +1,156 @@
+@import url("fonts.css");
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+
+body{
+   font-family: "Inter", sans-serif;
+   color: #7D7D7D;
+   font-size: 18px;
+   line-height: 1.47;
+}
+.lesson-6{
+   color: #D06B00;
+   text-align: center;
+   text-decoration: underline;
+   text-shadow: 5px 5px 5px #1cf610;
+   text-transform: capitalize;
+   letter-spacing: 2px;
+   font-size: 20px;
+}
+.header-container {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+.title-1,
+.title-2,
+.title-3,
+.title-4{
+   font-family: "Poppins",sans-serif;
+   font-weight: 600;
+}
+.title-1,
+.title-3{
+   color: #37393F;
+   line-height: 1.27;
+}
+.title-1{
+   font-size: 30px;
+   text-transform: capitalize;
+   margin-bottom: 5px;
+}
+.text{
+   margin-bottom: 42px;
+}
+.text-1{
+   margin-bottom: 40px;
+}
+.text-2{
+   color: #474747;
+   font-size: 20px;
+   line-height: 1.8;
+}
+.title-3{
+   font-size: 25px;
+   padding-right: 157px;
+   margin-bottom: 15px;
+}
+.title-2,
+.title-4{
+   font-size: 20px;
+}
+.title-2{
+   color: #6B77E5;
+   margin-bottom: 12px;
+}
+.title-4{
+   color: #40DDB6;
+   margin-bottom: 21px;
+}
+.title-6{
+   font-family: "DM Serif Text", sans-serif;
+   color: #0E333D;
+   font-size: 59px;
+   line-height: 1.46;
+   margin-bottom: 25px;
+   padding-right: 37px;
+}
+.title-5{
+   color: #D06B00;
+   font-size: 28px;
+   margin-bottom: 13px;
+   padding-right: 343px;
+   text-transform: uppercase;
+}
+.title-5,
+.title-6,
+.text-2{
+   font-weight: 400;
+}
+.img-1{
+   max-width: 100%;
+   margin-bottom: 37px;
+}
+.img-2{
+   max-width: 100%;
+   vertical-align: top;
+}
+.block-main-1{
+   padding: 50px 15px;
+   max-width: 722px;
+   margin: 0 auto;
+}
+.block-main-1a{
+   display: block;
+   margin-bottom: 50px;
+}
+.content{
+   display: inline-block;
+   max-width: 332px;
+   margin-left: 13px;
+}
+.ul li{
+   margin-bottom: 30px;
+}
+.block-main-2{
+   max-width: 1169px;
+   padding: 140px 0;
+   margin: 0 auto;
+}
+.content-2{
+   display: inline-block;
+   margin-right: 38px;
+   padding: 21px 0;
+   max-width: 563px;
+}
+.img-3{
+   vertical-align: top;
+}
+.img-4{
+   vertical-align: top;
+}
+.block {
+   background-color: rgb(22, 173, 227);
+   color: black;
+   padding-top: 50px;
+   margin: 50px;
+   max-height: 100%;
+   overflow: scroll;
+}
+.inline {
+   color: black;
+   background-color: blueviolet;
+   padding-top: 50px;
+   margin: 50px;
+   max-height: 100%;
+}
+.inline-block {
+   background-color: rgb(29, 29, 30);
+   padding: 20px;
+   max-width: 100%;
+   vertical-align: top;
+}
+span{
+   color: red;
+}
