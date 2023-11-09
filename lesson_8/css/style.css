@@ -91,6 +91,7 @@ main{
 }
 .inline {
    background: url("../img/honey.jpg");
+   margin-bottom: 100px;
 }
 .business-plan-box {
    font-family: "Poppins", sans-serif;
