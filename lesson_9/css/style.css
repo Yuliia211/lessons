@@ -1,0 +1,691 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+	font-family: Inter, sans-serif;
+	padding: 30px;
+}
+header {
+   padding: 50px 0 0 0;
+   background-color: #8fe7bed7;
+   margin: 0 auto;
+   border: 5px solid rgb(0, 11, 128);
+   }
+main{
+   margin: 0 auto;
+   padding: 40px;
+}
+   .lesson-9{
+   margin: 50px 500px;
+   padding: 20px;
+   font-size: 20px;
+   text-align: center;
+   border: 5px solid rgb(6, 9, 23);
+   max-width: 500px;
+   box-shadow: inset 0 0 15px 1px #000000;
+   border-radius: 15px;
+
+}
+.contaner-1{
+   padding: 50px;
+   background-color: #ab8fe7;
+   margin: 0 auto;
+   border: 5px solid green;
+}
+.link{
+   font-size: 30px;
+}
+.link:hover{
+   text-decoration: underline;
+   color: #351874;
+}
+.link-2{
+   color: pink;
+}
+main:hover .link-2{
+   color: red;
+}
+main:hover + .link{
+   color: yellow;
+}
+.hover-expl {
+}
+.hover-expl__block {
+   width: 300px;
+   height: 300px;
+   background-color: green;
+   visibility: hidden;
+   opacity: 0;
+   transition: all 0.8s;
+}
+.hover-expl:hover .hover-expl__block {
+   visibility: visible;
+   opacity: 1;
+}
+.link-3{
+   color: blue;
+}
+.link-3:hover{
+   color: #8756f1;
+}
+.link-3:active {
+   color: #351874;
+}
+.link-4:visited{
+   color: #ab8fe7;
+}
+.link-4:hover{
+   color: rgb(87, 13, 13);
+}
+.link-4:focus{
+   outline: 3px dotted red;
+   color: #8ed112;
+}
+.ul-1{
+   margin-bottom: 30px;
+}
+input {
+   height: 40px;
+   width: 300px;
+   padding: 4px;
+   border: 1px solid #000000;
+}
+input:focus{
+   outline: 5px solid green
+}
+p{
+   margin-bottom: 15px;
+}
+.open-box{
+   font-size: 20px;
+}
+.box{
+   width: 300px;
+   height: 300px;
+   background-color: yellow;
+   visibility: hidden;
+}
+.box:target{
+   visibility: visible;
+}
+.game{
+   font-size: 30px;
+   color: #000000;
+   border-radius: 10%;
+   background: url("../img/repeat-chees.jpg");
+   padding: 50px 0;
+   border: 20px solid rgb(255, 166, 0);
+   min-height: 700px;
+}
+.game-block-1{
+   background: url("../img/mouse.jpg") center no-repeat rgb(127, 91, 15);
+   padding-left: 120px;
+   width: 50px;
+   height: 120px;
+}
+.game-block-1:hover .game-block-2{
+   visibility: visible;
+   opacity: 1;
+}
+.game-block-2{
+   visibility: hidden;
+   opacity: 0;
+   width: 200px;
+   height: 50px;
+   background-color: rgb(127, 91, 15);
+}
+.game-block-2:hover .game-block-3{
+   visibility: visible;
+   opacity: 1;
+}
+.game-block-3{
+   visibility: hidden;
+   opacity: 0;
+   margin-left: 200px;
+   width: 40px;
+   height: 150px;
+   background-color: rgb(127, 91, 15);
+}
+.game-block-3:hover .game-block-4{
+   visibility: visible;
+   opacity: 1;
+}
+.game-block-4{
+   visibility: hidden;
+   margin-top: 120px;
+   opacity: 0;
+   width: 400px;
+   height: 30px;
+   background-color: rgb(127, 91, 15);
+}
+.game-block-4:hover .game-block-5{
+   visibility: visible;
+   opacity: 1;
+}
+.game-block-5{
+   visibility: hidden;
+   margin-left: 400px;
+   width: 30px;
+   height: 60px;
+   background-color: rgb(127, 91, 15);
+}
+.game-block-5:hover .game-block-6{
+   visibility: visible;
+   opacity: 1;
+}
+.game-block-6{
+   margin-top: 30px;
+   margin-right: 400px;
+   visibility: hidden;
+   width: 120px;
+   height: 20px;
+   background-color: rgb(127, 91, 15);
+}
+.game-block-6:hover .game-block-7{
+   visibility: visible;
+   opacity: 1;
+}
+.game-block-7{
+   color: #000000;
+   font-size: 30px;
+   visibility: hidden;
+   margin-left: 120px;
+   width: 130px;
+   height: 50px;
+   background-color: rgb(184, 27, 19);
+}
+.cheese{
+   border: 10px solid yellow;
+   border-radius: 20%;
+}
+.title-2{
+   font-size: 20px;
+   text-align: center;
+   margin: 0 auto;
+   margin-bottom: 30px;
+}
+.contaner-2{
+   padding: 50px;
+   background-color: #e7b58f;
+   margin: 0 auto;
+   border: 5px solid green;
+}
+.contaner-2 h2:first-of-type{
+   background-color: rgb(50, 205, 200);
+}
+.text p{
+   font-size: 20px;
+   line-height: 130%;
+}
+
+.text p:first-child{
+   background-color: yellowgreen;
+}
+.text p:last-child{
+   background-color: rgb(205, 50, 200);
+}
+.text p:last-of-type{
+   font-size: 30px;
+}
+.text p:nth-child(3){
+   background-color: rgb(50, 78, 205);
+}
+.text p:nth-child(even){
+   color: #351874;
+}
+.text p:nth-child(odd){
+   color: rgb(208, 255, 0);
+}
+.text p:nth-child(3n + 1){
+   font-family: "Causten";
+   font-weight: 700;
+}
+.text p:nth-child(3n + 2){
+   font-family: "Inter" sans-serif;
+   font-weight: 400;
+   background-color: #f1d756;
+}
+.text p:nth-child(3n + 3){
+   background-color: #ab8fe7;
+}
+.text p:not(:last-child) {
+   margin-bottom: 10px;
+}
+
+.block-practice > * {
+   margin-bottom: 20px;
+}
+.block_title {
+   font-weight: 700;
+   font-size: 40px;
+}
+.block_text {
+   line-height: 140%;
+   font-size: 18px;
+   margin-bottom: 30px;
+}
+.block_link {
+   display: inline-block;
+   font-size: 20px;
+   color: yellow;
+   text-decoration: underline;
+}
+
+.block__link:hover {
+   text-decoration: none;
+}
+.block > *:last-child {
+   margin-bottom: 0;
+}
+.section {
+   margin-bottom: 100px;
+   outline: 3px solid rgb(81, 255, 0);
+}
+.section::before {
+   content: "Привіт!";
+}
+.section::after {
+   content: "Пока!";
+}
+/*-------Макет № 1--------*/
+.business-container {
+   padding: 50px 15px;
+   max-width: 722px;
+   margin: 0 auto;
+   font-family: "Inter", sans-serif;
+   font-weight: 400;
+   margin-bottom: 45px;
+}
+.title-1,
+.sub-title-1,
+.title-2,
+.sub-title-2,
+.title-3{
+   font-family: "Poppins" sans-serif;
+   font-weight: 600;
+   line-height: 1.27;
+   
+}
+.title-1,
+.title-2,
+.title-3{
+   color: #37393F;
+}
+.title-1 {
+   margin-bottom: 12.5px;
+   font-size: 30px
+}
+.text-1 {
+   color: #7D7D7D;
+   margin-bottom: 42px;
+   font-size: 18px;
+   line-height: 1.46;
+}
+.sub-title-1 {
+   font-size: 20px;
+   color: #6B77E5;
+   margin-bottom: 12px;
+}
+.business-block{
+   margin-bottom: 40px;
+}
+.block-our_benefits {
+   display: block;
+   margin-bottom: 50px;
+}
+.content-our-benefits{
+   display: inline-block;
+   max-width: 332px;
+   margin-left: 13px;
+   margin-bottom: 50px;
+}
+.business-container *:last-child {
+   margin-bottom: 0;
+}
+.photo-1{
+   margin-right: 15.7px;
+   max-width: 100%;
+   vertical-align: top;
+}
+.li:not(:last-child) {
+   margin-bottom: 30px;
+}
+.li::before {
+   display: inline-block;
+   content: "";
+   background: url("../img/vector.jpg") center / 27px 27px no-repeat;
+   width: 27px;
+   height: 27px;
+   margin-right: 8px;
+   margin-bottom: -7px;
+   vertical-align: middle;
+}
+.title-2 {
+   font-size: 25px;
+   padding-right: 176px;
+   margin-bottom: 15px;
+}
+.sub-title-2 {
+   margin-bottom: 33px;
+   font-size: 20px;
+   color: #40DDB6;
+}
+.ul-2 {
+   line-height: normal;
+   color: #7D7D7D;
+   font-size: 18px;
+}
+.title-3 {
+   margin-bottom: 13.5px;
+   font-size: 30px
+}
+.text-3 {
+   color: #7D7D7D;
+   font-size: 18px;
+   line-height: 1.46;
+}
+/*-------Макет № 2--------*/
+.whitecollar-container {
+   padding: 0 15px;
+   max-width: 705px;
+   margin: 0 auto 145px;
+   font-family: "Inter", sans-serif;
+   font-weight: 400;
+   margin-bottom: 40px;
+   color: #7D7D7D;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 1.46;
+}
+.sub-title-4::before{
+   background-color: #6B77E5;
+   width: 12px;
+   height: 12px;
+   display: inline-block;
+   margin-right: 8px;
+   content: "";
+}
+.sub-title-4{
+   margin-right: 213px;
+   margin-bottom: 16px;
+}
+.title-4 {
+   font-family: "Poppins" sans-serif;
+   font-weight: 700;
+   line-height: 1.21;
+   color: #37393F;
+   font-size: 40px; 
+   margin-right: 260px;
+   margin-bottom: 48px;
+}
+.sub-title-vision,
+.sub-title-mision {
+   font-family: "Poppins" sans-serif;
+   font-weight: 600;
+   font-size: 20px;
+   color: #37393F;
+   margin-bottom: 12px;
+}
+.sub-title-4 {
+   color: #37393F;
+   font-size: 18px;
+   font-weight: 500;
+}
+.vision,
+.mision{
+   padding: 28px 41px 28px 38px;
+   border: 1px solid #E3E3E3;;
+}
+.vision{
+   margin-bottom: 31px;
+}
+.text-4,
+.mision{
+   margin-bottom: 48px;
+}
+.sub-title-vision::before{
+   vertical-align: middle;
+   width: 27px;
+   height: 27px;
+   background: url("../img/vector.jpg") center / 27px 27px no-repeat;
+   content: "";
+   display: inline-block;
+   margin-right: 19px;
+   margin-top: -3px;
+}
+.sub-title-mision::before{
+   vertical-align: middle;
+   width: 27px;
+   height: 27px;
+   background: url("../img/vector.jpg") center / 27px 27px no-repeat;
+   content: "";
+   display: inline-block;
+   margin-right: 19px;
+   margin-top: -3px;
+}.vision p,
+.mision p{
+   padding-left: 50px;
+}
+.text p: :first-of-type{
+   margin-bottom: 16px;
+}
+.more-about-us{
+   color: #FFF;
+   text-align: center;
+   font-weight: 600;
+   text-transform: capitalize;
+   background: #6B77E5;
+   padding: 21px 35px 22px 35px;
+   max-width: 200px;
+   max-height: 65px;
+   margin-bottom: 16px;
+}
+.more-about-us:hover{
+   background: #161e62;
+}
+.whitecollar-container>*:last-child {
+   margin-bottom: 0;
+}
+
+/*-------Макет № 3--------*/
+.work-container{
+   padding: 0 15px;
+   max-width: 1250px;
+   margin: 0 auto 145px;
+   color: #7D7D7D;
+   font-family: "Inter", sans-serif;
+   line-height: 1.46;
+   font-size: 18px;
+   font-weight: 400;
+}
+.sub-title-work{
+   text-align: center;
+   color: #37393F;
+   font-weight: 500;
+   margin-left: 6px;
+   margin-bottom: 16px;
+}
+.sub-title-work::before{
+   background-color:#40DDB6;
+   width: 12px;
+   height: 12px;
+   content:"";
+   display: inline-block;
+   margin-right: 6px;
+}
+.title-work{
+   color: #37393F;
+   text-align: center;
+   font-family: "Poppins" sans-serif;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 1.21;
+   margin-bottom: 100px;
+}
+.title-make-appointment,
+.title-consultation,
+.title-service{
+   color: #37393F;
+   text-align: center;
+   font-family: "Poppins" sans-serif;
+   font-size: 25px;
+   font-weight: 600;
+   line-height: 1.27;
+   margin-bottom: 16px;
+}
+.service,
+.consultation,
+.make-appointment{
+   background-color:  #F4F4F4;
+   padding: 58px 43px;
+   text-align: center;
+}
+.make-appointment{
+   display: inline-block;
+   margin-right: 31px;
+   max-width: 386px;
+}
+.make-appointment-box{
+font-size: 0;
+}
+.make-appointment::before {
+   display: block;
+   content: "";
+   background: url("../img/appointment.jpg") center / 72px 72px no-repeat;
+   width: 72px;
+   height: 72px;
+   border-radius: 50%;
+   margin: -94px auto 22px;
+}
+.consultation{
+   margin-right: 31px;
+   display: inline-block;
+   max-width: 386px;
+}
+.consultation::before {
+   display: block;
+   content: "";
+   background: url("../img/consultation.jpg") center / 72px 72px no-repeat;
+   width: 72px;
+   height: 72px;
+   border-radius: 50%;
+   margin: -94px auto 22px;
+}
+.service{
+   display: inline-block;
+   max-width: 386px;
+}
+.service::before {
+   display: block;
+   content: "";
+   background: url("../img/service.jpg") center / 72px 72px no-repeat;
+   width: 72px;
+   height: 72px;
+   border-radius: 50%;
+   margin: -94px auto 22px;
+}
+.work-container a{
+   color: #6B77E5;
+   text-align: center;
+   font-weight: 600;
+   font-size: 18px;
+   text-transform: capitalize;
+   margin-bottom: 16px;
+}
+.work-container p{
+   font-size: 18px;
+}
+.make-appointment >*:last-child{
+   margin-bottom: 0;
+}
+.consultation >*:last-child{
+   margin-bottom: 0;
+}
+.service >*:last-child{
+   margin-bottom: 0;
+}
+.work-container a:hover{
+   color: #161e62;
+}
+/*-------Макет № 4--------*/
+.jewels-container {
+   max-width: 1620px;
+   margin: 0 auto 100px;
+   color: #000;
+   font-family: "Cormorant Infant", serif;
+   font-size: 0;
+   font-weight: 700;
+   line-height: 1.15;
+}
+.title-jewels {
+   font-size: 60px;
+   display: inline-block;
+   vertical-align: top;
+   margin-top: 109px;
+   max-width: 488px;
+   margin-right: 3px;
+}
+
+.title-jewels::after {
+   content: "";
+   width: 60%;
+   height: 3px;
+   background-color: #78473B;
+   display: inline-block;
+}
+.emblossed-1:not(:last-child) {
+   margin-right: 55px;
+}
+.emblossed-1 {
+   font-size: 46px;
+   line-height:1.13;
+   display: inline-block;
+   margin-top: 32px;
+   vertical-align: top;
+}
+.rings-1 img:hover{
+   opacity: 50%;
+}
+.rings-2 img:hover{
+   opacity: 50%;
+}
+.sub-title-emblossed {
+   font-size: 24px;
+   line-height: 1.4;
+}
+.emblossed-2 {
+   display: inline-block;
+   font-size: 46px;
+   line-height:1.13;
+}
+.emblossed-2:not(:last-child) {
+   margin-right: 55px;
+}
+.sub-title-emblossed-2 {
+   font-size: 24px;
+   line-height: 1.4;
+}
+.rings-1{
+   max-width: 334px;
+   max-height: 381px;
+   border: 1px solid #000;
+   margin-bottom: 34px;
+}
+.rings-1 img{
+   margin-top: 9px;
+   margin-left: 10px;
+}
+.emblossed-2 h4{
+   margin-bottom: 31px;
+   max-width: 339px;
+}
+.rings-2{
+   max-width: 334px;
+   max-height: 381px;
+   border: 1px solid #000;
+   margin-bottom: 34px;
+}
+.rings-2 img{
+   margin-top: 9px;
+   margin-left: 10px;
+}
